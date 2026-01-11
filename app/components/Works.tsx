@@ -3,8 +3,8 @@ const projects = [
     title: "Accommate",
     description: "A Full-Stack accommodation platform for students to find and book stays near their campus.",
     imgUrl: "project1.png",
-    tech: ["MERN", "Render", "Cloudinary", "Passport.js", "MVC Framework"],
-    demo: "https://accommate.onrender.com/Accommate",
+    tech: ["MERN", "Cloudinary", "Passport.js", "MVC Framework", "Render", "Vercel"],
+    demo: "https://accommate.vercel.app",
     repo: "https://github.com/ShreelaxmiHegde/Accommate"
   }
 ];
@@ -27,7 +27,7 @@ export default function Projects() {
               <p className="mt-2 text-gray-400 text-sm">
                 ▸ User Authentication & Authorization
                 <br />
-                ▸ CRUD operations on Listings
+                ▸ CRUD operations on Listings and Reviews
                 <br />
                 ▸ Ratings and Reviews...
               </p>

@@ -1,11 +1,12 @@
 const projects = [
   {
     title: "Accommate",
-    description: "A Full-Stack accommodation platform for students to find and book stays near their campus.",
+    description: "A Full-Stack accommodation platform for students to find stays near their campus.",
     imgUrl: "project1.png",
-    tech: ["MERN", "Cloudinary", "Passport.js", "MVC Framework", "Render", "Vercel"],
+    tech: [ "MERN", "Docker", "CI/CD", "RESTful APIs"],
     demo: "https://accommate.vercel.app",
-    repo: "https://github.com/ShreelaxmiHegde/Accommate"
+    repo: "https://github.com/ShreelaxmiHegde/Accommate",
+    hub: "https://hub.docker.com/repositories/shreelaxmihegde"
   }
 ];
 
@@ -42,7 +43,7 @@ export default function Projects() {
                   target="_blank"
                   className="project-btn"
                 >
-                  Visit website
+                  Live
                   <i className="fa-solid fa-arrow-up-right-from-square ml-1"></i>
                 </a>
                 <a
@@ -50,7 +51,14 @@ export default function Projects() {
                   target="_blank"
                   className="project-btn"
                 >
-                  Github Repo
+                  GitHub
+                  <i className="fa-solid fa-arrow-up-right-from-square ml-1"></i>
+                </a>
+                <a 
+                  href={p.hub}
+                  target="_blank"
+                  className="project-btn"
+                > DockerHub
                   <i className="fa-solid fa-arrow-up-right-from-square ml-1"></i>
                 </a>
               </div>

@@ -7,18 +7,18 @@ export default function Hero() {
       {/* Left - Text */}
       <div className="space-y-6 order-2 md:order-1">
         <h1 className="text-4xl md:text-6xl text-center md:text-left font-bold leading-tight">
-          Full-Stack Developer Building
+          Backend-Focused Full Stack Dev
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0379fc] to-[#22ffd7]">
-            {" "}Scalable Web Apps
+            {" "}Shipping Scalable Systems
           </span>
         </h1>
 
         <p className="text-gray-300 text-base md:text-lg text-center md:text-left">
-          MERN · APIs · AI/ML Integration · Clean Architecture
+          APIs · Docker · CICD
         </p>
 
         <p className="text-gray-400 text-sm md:text-lg max-w-xl text-center md:text-left">
-          I build end-to-end web applications with focus on performance, UI clarity, and real-world system design.
+          I design and deploy production-grade full-stack applications with automated CI/CD, containerized infrastructure & startup-ready architecture.
         </p>
 
         <div className="flex gap-4 pt-2 flex-wrap justify-center md:justify-start">
@@ -38,7 +38,7 @@ export default function Hero() {
 
           <div className="flex gap-4 items-center bg-neutral-900/40 backdrop-blur-md px-3 py-2 rounded-full border border-neutral-700 shadow-lg">
             {/* LinkedIn */}
-            <a href="https://www.linkedin.com/in/shreelaxmi-hegde-832168358"
+            <a href="https://www.linkedin.com/in/ShreelaxmiHegde"
               className="media-btn text-[#0862b0]"
             >
               <i className="fa-brands fa-linkedin-in text-3xl"></i>

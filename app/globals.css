@@ -91,4 +91,8 @@ body {
   .exp-details {
     @apply text-gray-300 text-sm md:text-lg list-disc ml-4 space-y-1
   }
+
+  .bold-title {
+    @apply text-xl font-semibold mb-3
+  }
 }

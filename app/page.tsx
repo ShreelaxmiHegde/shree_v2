@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
+import IDo from "./components/IDo";
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Skills />
+        <IDo />
         <Works />
+        <Skills />
         <Experience />
       </main>
       <Footer />

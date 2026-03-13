@@ -3,7 +3,7 @@ const projects = [
     title: "Accommate",
     description: "A Full-Stack accommodation platform for students to find stays near their campus.",
     imgUrl: "project1.png",
-    tech: [ "MERN", "Docker", "CI/CD", "RESTful APIs"],
+    tech: [ "MERN", "RESTful APIs", "Testing", "Docker", "CI/CD" ],
     demo: "https://accommate.vercel.app",
     repo: "https://github.com/ShreelaxmiHegde/Accommate",
     hub: "https://hub.docker.com/repositories/shreelaxmihegde"
@@ -30,7 +30,7 @@ export default function Projects() {
                 <br />
                 ▸ CRUD operations on Listings and Reviews
                 <br />
-                ▸ Ratings and Reviews...
+                ▸ MVC architecture...
               </p>
               <div className="flex flex-wrap gap-3 mt-2">
                 {p.tech?.map(t => (

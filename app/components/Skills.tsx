@@ -1,7 +1,7 @@
 const skills = {
   Core: ["JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
-  FamiliarWith: ["TypeScript", "Next.js", "TailwindCSS" ,"Bootstrap", "Material-UI"],
-  Tools: ["Git & Github", "Hoppscotch", "Render", "Vercel", "Cloudinary", "Docker"]
+  FamiliarWith: ["TypeScript", "C++", "Python", "Next.js", "TailwindCSS" ,"Bootstrap", "MUI"],
+  Tools: ["Git & Github", "Hoppscotch", "Render", "Vercel", "AWS", "Docker"]
 };
 
 export default function Skills() {

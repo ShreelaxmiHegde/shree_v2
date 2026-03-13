@@ -57,13 +57,6 @@ export default function Hero() {
             >
               <i className="fa-solid fa-envelope text-3xl"></i>
             </a>
-
-            {/* Dev.to */}
-            <a href="https://dev.to/shreelaxmihegde"
-              className="media-btn text-white"
-            >
-              <i className="fa-brands fa-dev text-3xl"></i>
-            </a>
           </div>
         </div>
       </div>
